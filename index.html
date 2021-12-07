@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Weather</title>
+  <link rel="icon" type="image" href="Resources/favicon.png">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/5c13f22622.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="row">
+
+    <div class="col-9" style="background-color: #f1f2ff">
+      <!-------------------------------------------------------------------------------------------------------- Left Portion-->
+      <!-- Time Date & Toggle-->
+
+      <div class="row">
+        <div class="col-9">
+          <h1><b>10:11&nbsp;PM</b></h1>
+        </div>
+        <div class="col-3">
+          <!--Day Night Toggler-->
+
+          <div class="switch">
+          <input type="checkbox" name="toggle">
+          <label for="toggle">
+          <i class="bulb">
+            <span class="bulb-center"></span>
+            <span class="filament-1"></span>
+            <span class="filament-2"></span>
+            <span class="reflections">
+              <span></span>
+            </span>
+            <span class="sparks">
+              <i class="spark1"></i>
+              <i class="spark2"></i>
+              <i class="spark3"></i>
+              <i class="spark4"></i>
+            </span>
+          </i>
+        </label>
+      </div>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="col-3">
+      <!--------------------------------------------------------------------------------------------------------- Right Portion-->
+
+      <div class="row">
+        <!------------------------------------------------------------------------- Holding the Search Bar-->
+        <div class="col-8">
+          <container class="searchBox">
+            <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <input type="text" placeholder="search">
+            <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+          </container>
+        </div>
+        <div class="col-4">
+          <!--------------------------------------------------------------------- Notification and Profile setting-->
+          <container class="profileBox">
+            <a style="margin-top: 20px;" href="#"><i class="fa fa-bell-o" aria-hidden="true"></i></a>
+            <img src="Resources/Tony.jpg">
+          </container>
+        </div>
+      </div>
+
+      <!---------------------------------------------------------------------------- Card 1 on RIght Hand side-->
+      <div class="row">
+        <div class="rainCard">
+          <!-- City Name-->
+          <div style="padding-left: 20px;"><br>
+            <h3><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Kolkata</h3>
+          </div>
+
+          <!-- Icon and Date-->
+          <div style="text-align: center;">
+            <img src="Resources/cloud.png">
+            <h6><b>Today, 7 December</b></h6>
+          </div>
+
+          <!-- Temperature-->
+          <div style="text-align: center;">
+            <h1><b>26&deg;</b></h1>
+          </div>
+
+          <!-- Other Info with day-->
+          <div style="text-align: center;">
+            <h4><b>Tuesday</b></h4><br>
+            <h5><b>&nbsp;&nbsp;&nbsp;<i class="fa fa-wind" aria-hidden="true"></i>&nbsp;Wind &nbsp; | &nbsp;19&nbsp;km/h</b></h5>
+            <h5><b><i class="fas fa-tint"></i>&nbsp;Hum &nbsp; | &nbsp;22&nbsp;&percnt;</b></h5><br>
+          </div>
+        </div>
+      </div>
+
+      <!---------------------------------------------------------------------------- Card 2 on RIght Hand side-->
+      <div class="row, secCard">
+        <br>
+        <div class="row">
+          <div class="col-8" style="text-align: center;">
+            <h5><b>&nbsp;&nbsp;&nbsp;<i class="fa fa-wind" aria-hidden="true"></i>&nbsp;Wind &nbsp; | &nbsp; 17&nbsp;km/h</b></h5>
+          </div>
+          <div class="col-4" style="text-align: center;">
+            <h5><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;<b>Delhi</b></h5><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8" style="text-align: center;">
+            <h5><b><i class="fas fa-tint"></i>&nbsp;Hum &nbsp; | &nbsp; 21&nbsp;&percnt;</b></h5>
+          </div>
+          <div class="col-4" style="text-align: center;">
+            <h4><b>22&nbsp;&deg;</b></h4>
+          </div>
+        </div>
+        <br>
+      </div>
+
+      <!------------------------------------------------------------------------------ Card 3 on RIght Hand side-->
+      <div class="row, secCard" style="background-image: linear-gradient(to right, #fecb71, #ffbc50);">
+        <br>
+        <div class="row">
+          <div class="col-8" style="text-align: center;">
+            <h5><b>&nbsp;&nbsp;&nbsp;<i class="fa fa-wind" aria-hidden="true"></i>&nbsp;Wind &nbsp; | &nbsp; 22&nbsp;km/h</b></h5>
+          </div>
+          <div class="col-4" style="text-align: center;">
+            <h5><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;<b>NY</b></h5><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8" style="text-align: center;">
+            <h5><b><i class="fas fa-tint"></i>&nbsp;Hum &nbsp; | &nbsp; 10&nbsp;&percnt;</b></h5>
+          </div>
+          <div class="col-4" style="text-align: center;">
+            <h4><b>-5&nbsp;&deg;</b></h4>
+          </div>
+        </div>
+        <br>
+      </div>
+
+
+    </div>
+
+</body>
+
+</html>
